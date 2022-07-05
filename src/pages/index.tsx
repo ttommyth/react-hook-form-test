@@ -87,9 +87,9 @@ const Home: NextPage = () => {
               ]}
             />}
           />
-          <p>{data}</p>
-          <p>{JSON.stringify(formState.touchedFields)}</p>
-          <p>{JSON.stringify(formState.errors)}</p>
+          <p>submitted data: {data}</p>
+          <p>touchedFields: {JSON.stringify(formState.touchedFields)}</p>
+          <p>errors: {JSON.stringify(formState.errors)}</p>
           <input type="submit" className='rounded-full bg-purple-500 hover:bg-purple-600 text-white' />
         </div>
       </form>
